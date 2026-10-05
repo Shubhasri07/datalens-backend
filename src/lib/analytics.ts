@@ -81,7 +81,7 @@ export const pick = (d: Dataset) => {
   const nums = d.cols.filter((c) => c.type === "numeric").map((c) => c.name);
   const cats = d.cols.filter((c) => c.type === "categorical").map((c) => c.name);
   const dates = d.cols.filter((c) => c.type === "date").map((c) => c.name);
-  const main = nums.find((n) => /sales|revenue|amount|total|profit|price/i.test(n)) || nums[0];
+  const main = ["sales", "revenue", "amount", "total", "profit", "price"].map((k) => nums.find((n) => n.toLowerCase().includes(k))).find(Boolean) || nums[0];
   return { nums, cats, dates, main };
 };
 
