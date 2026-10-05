@@ -1,0 +1,13 @@
+rows,question,time_sec,correct
+10000,What is the average salary?,0.077,False
+10000,What is the highest salary?,0.043,True
+10000,What is the total salary?,0.052,True
+10000,What is the percentage of CSE employees?,0.027,True
+100000,What is the average salary?,0.186,False
+100000,What is the highest salary?,0.188,True
+100000,What is the total salary?,0.185,True
+100000,What is the percentage of CSE employees?,0.172,True
+1000000,What is the average salary?,1.654,False
+1000000,What is the highest salary?,1.696,True
+1000000,What is the total salary?,1.569,True
+1000000,What is the percentage of CSE employees?,1.62,True
