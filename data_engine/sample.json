@@ -1,0 +1,32 @@
+[
+  {
+    "Name": "Anu",
+    "Age": 21,
+    "Department": "CSE",
+    "Salary": 35000
+  },
+  {
+    "Name": "Bala",
+    "Age": 22,
+    "Department": "ECE",
+    "Salary": 40000
+  },
+  {
+    "Name": "Charan",
+    "Age": 21,
+    "Department": "CSE",
+    "Salary": 38000
+  },
+  {
+    "Name": "Divya",
+    "Age": 23,
+    "Department": "EEE",
+    "Salary": 42000
+  },
+  {
+    "Name": "Esha",
+    "Age": 22,
+    "Department": "ECE",
+    "Salary": 45000
+  }
+]
